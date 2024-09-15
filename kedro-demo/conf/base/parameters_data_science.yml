@@ -1,0 +1,12 @@
+# This is a boilerplate parameters config generated for pipeline 'data_science'
+# using Kedro 0.19.7.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.7/configuration/parameters.html
+
+
+
+model_options:
+  dep_var: 'LICENSE STATUS'
+  test_size : 0.8
+  random_state: 3

@@ -1,0 +1,18 @@
+train:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/train_set.csv
+  
+test:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/train_set.csv
+
+preprocessed_train:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/preprocessed_train.pq
+
+preprocessed_test:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/preprocessed_test.pq
+
+
+

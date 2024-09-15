@@ -1,0 +1,169 @@
+# This is a boilerplate parameters config generated for pipeline 'data_processing'
+# using Kedro 0.19.7.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.7/configuration/parameters.html
+
+
+### Creating mapping dictonary to club/bucket different License Description
+
+mapping_dist:
+  "Accessory Garage": "construction"
+  "Affiliation": "other"
+  "Airport Pushcart Liquor Midway - Class A": "hotel"
+  "Airport Pushcart Liquor O'Hare - Class A": "hotel"
+  "Animal Care Facility": "pet"
+  "Animal Care License": "pet"
+  "Animal Exhibition": "pet"
+  "Assisted Living/Shared Housing Establishment": "hotel"
+  "Auctioneer": "other"
+  "Automatic Amusement Device Operator": "amusement"
+  "Bed-And-Breakfast Establishment": "hotel"
+  "Bicycle Messenger Service": "courier"
+  "Board-Up Work": "construction"
+  "Body Piercing": "care"
+  "Broker": "other"
+  "Caterer's Liquor License": "hotel"
+  "Caterer's Registration (Liquor)": "hotel"
+  "Children's Activities Facilities": "care"
+  "Children's Services Facility License": "care"
+  "Class A - Indoor Special Event": "hotel"
+  "Commercial Garage": "parking"
+  "Consumption on Premises - Incidental Activity": "hotel"
+  "Day Care Center 2 - 6 Years": "care"
+  "Day Care Center Under 2 and 2 - 6 Years": "care"
+  "Day Care Center Under 2 Years": "care"
+  "Day Labor Agency": "staffing"
+  "Electronic Equipment Repair": "repair"
+  "Emerging Business": "other"
+  "Expediter - Class A": "consulting"
+  "Expediter - Class B": "consulting"
+  "Expediter - Class B Employee": "consulting"
+  "Explosives": "hazardous"
+  "Explosives, Certificate of Fitness": "hazardous"
+  "Filling Station": "hazardous"
+  "Food - Shared Kitchen": "hotel"
+  "Food - Shared Kitchen - Supplemental": "hotel"
+  "Grooming Facility": "care"
+  "Guard Dog Service": "pet"
+  "Hazardous Materials": "hazardous"
+  "Home Occupation": "consulting"
+  "Home Repair": "repair"
+  "Hospital": "care"
+  "Hotel": "hotel"
+  "Humane Society": "pet"
+  "Indoor Special Event": "amusement"
+  "Industrial Private Event Venue": "construction"
+  "Itinerant Merchant, Class I": "other"
+  "Itinerant Merchant, Class II": "other"
+  "Junk Peddler": "other"
+  "Kennels and Catteries": "pet"
+  "Laboratories": "hazardous"
+  "Late Hour": "care"
+  "Laundry, Late Hour": "care"
+  "License Broker": "lending"
+  "License Manager": "courier"
+  "Limited Business License": "business"
+  "Liquor Airport Pushcart License": "hotel"
+  "Long-Term Care Facility": "care"
+  "Manufacturing Establishments": "Manufacturing"
+  "Massage Establishment": "care"
+  "Massage Therapist": "care"
+  "Mobile Food Dispenser": "hotel"
+  "Mobile Food License": "hotel"
+  "Mobile Frozen Desserts Dispenser - Non-Motorized": "hotel"
+  "Motor Vehicle Repair: Engine Only (Class II)": "repair"
+  "Motor Vehicle Repair: Engine/Body(Class III)": "repair"
+  "Motor Vehicle Repair; Specialty(Class I)": "repair"
+  "Motor Vehicle Services License": "repair"
+  "Music and Dance": "amusement"
+  "Navy Pier - Mobile": "hotel"
+  "Navy Pier - Outdoor Fixed": "hotel"
+  "Navy Pier Kiosk License": "hotel"
+  "Navy Pier Vendor (Food)": "hotel"
+  "Navy Pier Vendor (Non-Food)": "hotel"
+  "Night Care Privilege": "care"
+  "Not-For-Profit Club": "community"
+  "Outdoor Patio": "hotel"
+  "Package Goods": "store"
+  "Pawnbroker": "lending"
+  "Peddler License": "other"
+  "Peddler, food (fruits and vegetables only)": "other"
+  "Peddler, non-food": "other"
+  "Peddler, non-food, special": "other"
+  "Peddler,food - (fruits and vegetables only) - special": "other"
+  "Performing Arts Venue": "amusement"
+  "Pet Shop": "pet"
+  "Pharmaceutical Representative": "care"
+  "Private Booting Operation": "parking"
+  "Produce Merchant": "lending"
+  "Public Place of Amusement": "amusement"
+  "Public Place of Amusement-TCC": "amusement"
+  "Raffles": "community"
+  "Regulated Business License": "business"
+  "Repossessor Class A": "lending"
+  "Repossessor Class B": "lending"
+  "Repossessor Class B Employee": "lending"
+  "Residential Real Estate Developer": "construction"
+  "Retail Computing Center": "business"
+  "Retail Food Est.-Supplemental License for Dog-Friendly Areas": "hotel"
+  "Retail Food Establishment": "hotel"
+  "Riverwalk Venue Liquor License": "hotel"
+  "Scavenger, Private": "hazardous"
+  "Secondhand Dealer": "other"
+  "Secondhand Dealer - Children's Products": "other"
+  "Secondhand Dealer (No Valuable Objects)": "other"
+  "Shared Housing Unit Operator": "hotel"
+  "Shared Kitchen User": "hotel"
+  "Single Room Occupancy Class I": "hotel"
+  "Single Room Occupancy Class II": "hotel"
+  "Special Event Food": "hotel"
+  "Special Event Liquor": "hotel"
+  "Street Performer": "amusement"
+  "Tavern": "hotel"
+  "Taxicab Two-Way Dispatch Service License": "courier"
+  "Tire Facility Class II (1,001 - 5,000 Tires)": "repair"
+  "Tire Facility Class III (5,001 - More Tires)": "repair"
+  "Tire Facility Class I (100 - 1,000 Tires)": "repair"
+  "Tobacco": "Tobacco"
+  "Tobacco Dealer Wholesale": "Tobacco"
+  "Tobacco Sampler": "Tobacco"
+  "Tobacco Vending Machine Operator": "Tobacco"
+  "Tobacco Vending, Individual": "Tobacco"
+  "Transportation Network Provider": "courier"
+  "Vacation Rental": "hotel"
+  "Valet Parking Operator": "parking"
+  "Veterinary Hospital": "pet"
+  "Weapons Dealer": "hazardous"
+  "Wholesale Food Establishment": "hotel"
+  "Wrigley Field": "amusement"
+
+
+### Creating list of zip codes which are in Special Service Area
+zip_list_ssa: ['43506','45040','46321','46327','46409','46410','52804','53202','53545',
+            '60005','60007','60008','60015','60018','60031','60035','60036','60045',
+            '60046','60047','60048','60056','60060','60061','60068','60076','60085',
+            '60090','60101','60106','60107','60120','60126','60131','60137','60139',
+            '60148','60154','60160','60164','60172','60173','60181','60186','60193',
+            '60197','60202','60204','60302','60402','60409','60411','60422','60438',
+            '60446','60459','60468','60471','60472','60510','60513','60516','60532',
+            '60542','60558','60559','60561','60601','60602','60603','60604','60605',
+            '60607','60608','60609','60610','60612','60613','60614','60615','60617',
+            '60618','60619','60620','60622','60623','60624','60625','60626','60628',
+            '60629','60632','60634','60636','60637','60638','60640','60641','60642',
+            '60643','60645','60646','60647','60649','60651','60653','60655','60657',
+            '60659','60660','60661','61021','63105','66202','67204','90007']
+
+### Converting date columns from object type to date type on train set
+list_date: ['APPLICATION CREATED DATE','APPLICATION REQUIREMENTS COMPLETE','PAYMENT DATE',
+             'LICENSE TERM START DATE','LICENSE TERM EXPIRATION DATE','LICENSE APPROVED FOR ISSUANCE',
+             'DATE ISSUED','LICENSE STATUS CHANGE DATE']
+
+### Droping columns having more that 50% null values or too many categories
+cols: ['ID','LICENSE ID','LEGAL NAME','DOING BUSINESS AS NAME','ADDRESS',
+        'STATE','LICENSE NUMBER','SSA','LATITUDE','LONGITUDE','LOCATION',
+        'ZIP CODE','WARD','PRECINCT','WARD PRECINCT','POLICE DISTRICT',
+        'LICENSE DESCRIPTION','LICENSE TERM START DATE YEAR','LICENSE TERM EXPIRATION DATE YEAR']
+
+### Encoding all the categorical variables in the list that is required to train the model
+encoding_list: ['LICENSE_DESCRIPTION_mapping','CITY','APPLICATION TYPE','CONDITIONAL APPROVAL','LICENSE STATUS']
